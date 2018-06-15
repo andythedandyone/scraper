@@ -1,0 +1,33 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "Scrape text from websites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andythedandyone/scraper.git"
+  },
+  "keywords": [
+    "scraper",
+    "crawler"
+  ],
+  "author": "Andy Lavor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andythedandyone/scraper/issues"
+  },
+  "homepage": "https://github.com/andythedandyone/scraper#readme",
+  "dependencies": {
+    "async": "^2.6.1",
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "line-by-line": "^0.1.6",
+    "mongoose": "^5.1.5",
+    "request": "^2.87.0"
+  }
+}
